@@ -9,4 +9,6 @@ let Passi = 0
 Passi = 0
 basic.forever(function () {
     basic.showNumber(Passi)
+    basic.pause(5000)
+    basic.clearScreen()
 })
